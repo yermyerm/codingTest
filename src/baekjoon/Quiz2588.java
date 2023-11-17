@@ -1,6 +1,8 @@
+package baekjoon;
+
 import java.io.*;
 
-public class $2588 {
+public class Quiz2588 {
     public static void main(String[] args) throws IOException {
         System.setIn(new FileInputStream("src/input.txt"));
 

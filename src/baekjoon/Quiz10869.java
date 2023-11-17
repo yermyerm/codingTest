@@ -1,7 +1,9 @@
+package baekjoon;
+
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class $10869 {
+public class Quiz10869 {
     public static void main(String[] args) throws IOException {
         System.setIn(new FileInputStream("src/input.txt"));
 
