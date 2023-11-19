@@ -1,8 +1,12 @@
-import java.io.*;
+package baekjoon;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main {
+public class Quiz1546 {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         int numberOfTests = Integer.parseInt(bufferedReader.readLine());
@@ -17,3 +21,4 @@ public class Main {
         System.out.println(Arrays.stream(scores).sum() / numberOfTests + "");
     }
 }
+
