@@ -13,7 +13,7 @@ public class Quiz10809 {
         String[] wordArray = word.split("");
         String[] alphabetArray = "abcdefghijklmnopqrstuvwxyz".split("");
         int[] alphabetSearch = new int[alphabetArray.length];
-        Arrays.setAll(alphabetSearch, i -> -1);
+        Arrays.fill(alphabetSearch, -1);
 
 
         for (int i = 0; i < wordArray.length; i++) {
